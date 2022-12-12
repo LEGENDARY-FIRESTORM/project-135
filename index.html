@@ -1,0 +1,38 @@
+<html>
+<head>
+
+	<title>Object Finder</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/addons/p5.sound.min.js"></script>
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body background="background.jpeg">
+  <center>
+    <h1 class="bg-info heading">Object Finder</h1>
+    <br>
+    <h3 class="bg-danger" id="r">Type the object name so we can detect it in the camera</h3>
+    <br>
+    <br>
+    <button onclick="start()" class="btn btn-success">Start</button>
+    <br>
+    <br>
+    <h4>Object Name : </h4> 
+    <input id="input1" placeholder="Object Name">
+    <br>
+    <h3 id="status1" class="bg-success"></h3>
+    <h3 id="status2" class="bg-info"></h3>
+    <br>
+    <h3 class="bg-danger" id="number"></h3>
+  </center>
+
+  <script src="main.js"></script>
+
+</body>
+</html>
