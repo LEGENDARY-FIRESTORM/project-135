@@ -47,7 +47,7 @@ function draw(){
 }
 
 function start(){
-    cocossd = objectDetector("cocossd", modelLoaded);
+    cocossd = ml5.objectDetector("cocossd", modelLoaded);
     inputValue = document.getElementById("input1").value;
     document.getElementById("status1").innerHTML = "Status : Detecting Objects";
 }
